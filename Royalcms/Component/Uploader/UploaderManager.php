@@ -67,7 +67,7 @@ class UploaderManager implements FactoryContract
      */
     public function getDefaultProvider()
     {
-        return $this->royalcms->make('config')['uploader.default'];
+        return $this->royalcms->make('config')['uploader::uploader.default'];
     }
 
     /**

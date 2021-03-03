@@ -205,7 +205,7 @@ class Uploader implements UploaderContract
      */
     public function getDefaultVisibility()
     {
-        return $this->config->get('uploader.visibility') ?: 'private';
+        return $this->config->get('uploader::uploader.visibility') ?: 'private';
     }
 
     /**
