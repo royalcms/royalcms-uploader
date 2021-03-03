@@ -28,6 +28,6 @@ return [
     |
     */
 
-    'visibility' => 'private',
+    'visibility' => 'public',
 
 ];
